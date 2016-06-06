@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Money collector</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/moneyFonts.css">
+  <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body class="bg-danger">
+
+<div class="alert alert-success text-center">
+
+<div class="text-center">
+  <h4>First Rule: Once you have their money, never give it back</h4>
+</div>
+
+<div class="input-group text-center col-md-4 col-md-offset-4">
+  <h1><p class="bg-primary active">
+    <span class="glyphicon glyphicon-euro"></span>
+    <span class="glyphicon glyphicon-usd"></span>
+      Money collector
+    <span class="glyphicon glyphicon-gbp"></span>
+    <span class="glyphicon glyphicon-jpy"></span>
+</p></h1>
+</div>
+
+
+<div class="input-group text-center col-md-4 col-md-offset-4">
+  <h3><p class="bg-warning active goal" id="goal">Total needed</p></h3>
+</div>
+
+<div class="input-group text-center col-md-4 col-md-offset-4">
+  <h3><p class="bg-warning active chances" id="chances">Turns left</p></h3>
+</div>
+
+<div class="input-group text-center col-md-4 col-md-offset-4">
+  <h2><p class="bg-warning active wins" id="wins">Wins: 0</p></h2>
+  <h2><p class="bg-warning active losses" id="losses">Losses: 0</p></h2>
+</div>
+
+  <button id="input1" class="btn btn-success btn-sm text-center input1" onclick="">
+    <h3>
+     <span class="glyphicon glyphicon-euro"><br>Euro</span>
+    </h3>
+  </button>
+
+  <button id="input2" class="btn btn-success btn-sm text-center input2" onclick="">
+    <h3>
+     <span class="glyphicon glyphicon-usd"><br>U.S. Dollar</span>
+    </h3>
+  </button>
+
+  <button id="input3" class="btn btn-success btn-sm text-center input3" onclick="">
+    <h3>
+      <span class="glyphicon glyphicon-gbp"><br>Pound Sterling</span>
+    </h3>
+  </button>
+
+  <button id="input4" class="btn btn-success btn-sm text-center input4" onclick="">
+    <h3>
+      <span class="glyphicon glyphicon-jpy"><br>Yen</span>
+    </h3>
+  </button>
+
+  <div class="input-group text-center col-md-4 col-md-offset-4">
+    <h2><p class="bg-warning active total" id="total">Total</p></h2>
+  </div>
+
+  <button id="clear" class="btn btn-danger btn-sm text-center clear" onclick="">
+    <h3>
+      <span class="glyphicon glyphicon-play"><br>Play again</span>
+    </h3>
+  </button>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+  <script src="assets/javascript/game.js">
+  </script>
+
+
+</div>
+
+<footer>
+  <h6 class="text-center">
+    2016 Sid Jay
+  </h6>
+</footer>
+
+</body>
+
+</html>

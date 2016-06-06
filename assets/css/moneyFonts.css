@@ -1,0 +1,21 @@
+body{
+  background-color: #008080;
+  border-color: #181623;
+  color: #181623;
+}
+
+h2, h3, h4, h5, input, div, button{
+font-family: 'Tangerine', cursive;
+padding: 0% 15% 0% 15%;
+margin: 1%;
+}
+
+p{
+border-style: solid;
+border-width: 2px;
+border-color: #d9edf0;
+}
+
+h1, h6{
+font-family: 'Helvetica Neue';
+}
