@@ -2,10 +2,10 @@
   var randoGen = function (min, max) {
     return Math.random() * (max - min) + min;
   }
-  var randomNumb1 = Math.pow(2, Math.floor(randoGen(0, 6)))
-  var randomNumb2 = Math.pow(2, Math.floor(randoGen(0, 6)))
-  var randomNumb3 = Math.pow(2, Math.floor(randoGen(0, 6)))
-  var randomNumb4 = Math.pow(2, Math.floor(randoGen(0, 6)))
+  var randomNumb1 = Math.pow(2, Math.floor(randoGen(0, 5)))
+  var randomNumb2 = Math.pow(2, Math.floor(randoGen(0, 5)))
+  var randomNumb3 = Math.pow(2, Math.floor(randoGen(0, 5)))
+  var randomNumb4 = Math.pow(2, Math.floor(randoGen(0, 5)))
   var randomTotal = Math.pow(2, Math.floor(randoGen(5, 8)))
   //yes I know this part looks arbitrary. It's serving a purpose, trust me.
   var chances = (Math.log(randomTotal)/(Math.log(2)) + 2*Math.ceil(Math.log(randomTotal)))

@@ -8,6 +8,9 @@ h2, h3, h4, h5, input, div, button{
 font-family: 'Tangerine', cursive;
 padding: 0% 15% 0% 15%;
 margin: 1%;
+-webkit-flex: 1;
+-ms-flex: 1;
+flex: 1;
 }
 
 p{
@@ -18,4 +21,17 @@ border-color: #d9edf0;
 
 h1, h6{
 font-family: 'Helvetica Neue';
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+.btn-group-sm > .btn, .btn-sm{
+  padding: 5px 55px;
+}
+}
+
+@supports (-ms-accelerator:true) {
+  .btn-group-sm > .btn, .btn-sm{
+    padding: 5px 55px;
+  }
 }
